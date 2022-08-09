@@ -34,7 +34,7 @@ class Clean_Tweets:
     def convert_to_numbers(self, df:pd.DataFrame)->pd.DataFrame:
         """
         convert columns like polarity, subjectivity, retweet_count
-        favorite_count etc to numbers
+        favorite_count etc. to numbers
         """
         df[['polarity',"retweet_count",'favorite_count','subjectivity']] = df['polarity'].apply(pd.to_numeric)
         

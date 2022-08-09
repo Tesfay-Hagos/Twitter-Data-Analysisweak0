@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63a4d677-6325-41e8-a07e-91f96031ffd5" name="Changes" comment="work on follower count, favourite count, scrren name resource and etc">
+    <list default="true" id="63a4d677-6325-41e8-a07e-91f96031ffd5" name="Changes" comment="work on cleaning the twiiter dtaset after changed to the dataframe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clean_tweets_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean_tweets_dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_dataframe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660050841251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="work on cleaning the twiiter dtaset after changed to the dataframe">
+      <created>1660061212451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660061212451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="work on follower count, favourite count, scrren name resource and etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on follower count, favourite count, scrren name resource and etc" />
+    <MESSAGE value="work on cleaning the twiiter dtaset after changed to the dataframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on cleaning the twiiter dtaset after changed to the dataframe" />
   </component>
 </project>
