@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a4d677-6325-41e8-a07e-91f96031ffd5" name="Changes" comment="work on follower count, favourite count, scrren name resource and etc">
-      <change beforePath="$PROJECT_DIR$/africa_twitter_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fix_clean_tweets_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean_tweets_dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fix_extract_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_dataframe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tesfa/Desktop/Twitter-Data-Analysis&quot;
   }
 }</component>
   <component name="RunManager">

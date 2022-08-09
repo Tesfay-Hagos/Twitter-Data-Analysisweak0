@@ -36,33 +36,46 @@ class TweetDfExtractor:
 
     # an example function
     def find_statuses_count(self)->list:
-        statuses_count 
+        statuses_count=statuses_count=[x['user']['statuses_count'] for x in tweets_data]
+        return statuses_count
         
     def find_full_text(self)->list:
-        text = 
+        text = [x['full_text'] for x in tweets_data]
+        return text
        
     
     def find_sentiments(self, text)->list:
-        
+        text=find_full_text()
+        polarity=[]
+        subjectivity =[]
+        for t in text:
+            sentiment=TextBlob(t).sentiment
+            polarity.append(sentiment.polarity)
+            subjectivity.append(sentiment.subjectivity)
+            self.subjectivity=subjectivity
+
         return polarity, self.subjectivity
 
     def find_created_time(self)->list:
-       
+        created_at=[x['user']['created_at'] for x in tweets_data]
         return created_at
 
     def find_source(self)->list:
-        source = 
+        source = [x['source'] for x in tweets_data]
 
         return source
 
     def find_screen_name(self)->list:
-        screen_name = 
+        screen_name = [x['user']['screen_name'] for x in tweets_data]
+        return screen_name
 
     def find_followers_count(self)->list:
-        followers_count = 
+        followers_count = [x['user']['followers_count'] for x in tweets_data]
+        return followers_count
 
     def find_friends_count(self)->list:
-        friends_count = 
+        friends_count = [x['user']['friends_count'] for x in tweets_data]
+        return friends_count
 
     def is_sensitive(self)->list:
         try:
@@ -73,23 +86,27 @@ class TweetDfExtractor:
         return is_sensitive
 
     def find_favourite_count(self)->list:
+        favourite_count =[x['user']['favourites_count'] for x in tweets_data]
+        return favourite_count
         
     
     def find_retweet_count(self)->list:
-        retweet_count = 
+        retweet_count = [x['retweet_count'] for x in tweets_data]
+        return retweet_count
 
     def find_hashtags(self)->list:
-        hashtags =
+        hashtags =None
 
     def find_mentions(self)->list:
-        mentions = 
+        mentions = [x['user']['listed_count'] for x in tweets_data]
+        return mentions
 
 
     def find_location(self)->list:
         try:
-            location = self.tweets_list['user']['location']
+            location = [x['user']['location'] for x in tweets_data]
         except TypeError:
-            location = ''
+            location = 'None'
         
         return location
 
