@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63a4d677-6325-41e8-a07e-91f96031ffd5" name="Changes" comment="work on follower count, favourite count, scrren name resource and etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean_tweets_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean_tweets_dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_extract_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_extract_dataframe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="extract_dataframe" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="test_extract" type="PythonConfigurationType" factoryName="Python">
       <module name="Twitter-Data-Analysisweak0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
