@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63a4d677-6325-41e8-a07e-91f96031ffd5" name="Changes" comment="work on follower count, favourite count, scrren name resource and etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fix_clean_tweets_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean_tweets_dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fix_extract_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_dataframe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659987261895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="work on follower count, favourite count, scrren name resource and etc">
+      <created>1660044480954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660044480954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
